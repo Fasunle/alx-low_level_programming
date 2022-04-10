@@ -6,11 +6,4 @@
 # 32 "<command-line>" 2
 # 1 "main.c"
 
-
-
-
-
-int main(void)
-{
-     return (0);
-}
+int main(void){return(0); }
