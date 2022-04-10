@@ -1,9 +1,10 @@
 #include <stdio.h>
 
-/*
+/**
  * main - Entry point
- * Always return 0 (success)
- * */
+ * Decription: main function is required
+ * Return: always return (0) (success)
+ */
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
