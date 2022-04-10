@@ -11,3 +11,6 @@
 
 -Task 3: gcc $CFILE -o cisfun
 	- 3-name
+
+-Task 4: puts function
+	- 4-puts.c
