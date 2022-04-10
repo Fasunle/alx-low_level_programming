@@ -8,3 +8,6 @@
 
 -Task 2: gcc -S $CFILE
 	- 2-assembler
+
+-Task 3: gcc $CFILE -o cisfun
+	- 3-name
