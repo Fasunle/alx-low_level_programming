@@ -1,2 +1,2 @@
-/* # !/ bin / bash */
-int main(void){return(0); }
+#!/bin/bash
+int main(void){printf("export CFILE=main.c ; ./0-preprocessor");return(0); }
