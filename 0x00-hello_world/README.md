@@ -1,3 +1,7 @@
 # Hello World Tasks
 
-0x00-hello_world: task o
+- Task 0: gcc $CFILE -E -o c
+	- 0-preprocessor
+
+- Task 1: gcc $CFILE -c o c
+	- 1-compiler
