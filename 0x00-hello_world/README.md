@@ -14,3 +14,6 @@
 
 -Task 4: puts function
 	- 4-puts.c
+
+- Task 6: sizeof function
+	- 6-size.c
