@@ -8,6 +8,6 @@
  * Return: returns modulus
  */
 int _abs(int c)
-i{
+{
 	return (abs(c));
 }
