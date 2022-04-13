@@ -11,33 +11,36 @@ void print_times_table(int n)
 {
 	int i, j, k;
 
-	for (i = 0; i <= n; i++)
+	if (n < 15 && n > 0)
 	{
-		for (j = 0; j <= n; j++)
+		for (i = 0; i <= n; i++)
 		{
-			k = i * j;
-			if (k < 10)
+			for (j = 0; j <= n; j++)
 			{
-				printf("   ");
-			}
-			else if (k <= 99)
-			{
-				printf("  ");
-			}
-			else if (k <= 999)
-			{
-				printf(" ");
-			}
+				k = i * j;
+				if (k < 10)
+				{
+					printf("   ");
+				}
+				else if (k <= 99)
+				{
+					printf("  ");
+				}
+				else if (k <= 999)
+				{
+					printf(" ");
+				}
 
-			if (j != n)
-			{
-				printf("%d,", k);
+				if (j != n)
+				{
+					printf("%d,", k);
+				}
+				else
+				{
+					printf("%d", k);
+				}
 			}
-			else
-			{
-				printf("%d", k);
-			}
+			printf("\n");
 		}
-		printf("\n");
 	}
 }
