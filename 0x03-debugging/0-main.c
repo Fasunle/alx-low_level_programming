@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - tests function that prints if a given interger is positive or negative
+ * main - prints if a given interger is positive or negative
  * Return: 0
  */
 int main(void)
