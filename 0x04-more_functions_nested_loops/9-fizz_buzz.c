@@ -20,7 +20,14 @@ int main(void)
 		}
 		else if (mult_of_5)
 		{
-			printf("Buzz ");
+			if (i == 100)
+			{
+				printf("Buzz");
+			}
+			else
+			{
+				printf("Buzz ");
+			}
 		}
 		else if (mult_of_3)
 		{
