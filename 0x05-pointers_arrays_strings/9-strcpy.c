@@ -1,4 +1,4 @@
-#include "holberton.c"
+#include "holberton.h"
 
 /**
  * _strcpy - copies source 'src' folder to destination 'dest' folder
