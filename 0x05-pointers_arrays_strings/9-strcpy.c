@@ -3,8 +3,8 @@
 /**
  * _strcpy - copies source 'src' folder to destination 'dest' folder
  * @dest: char
- * @str: char
- * Return char
+ * @src: char
+ * Return: char
  */
 
 char *_strcpy(char *dest, char *src)
