@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * _strcat - contat two characters
+ * _strncat - contat two characters
  * @dest: destination char
  * @src: new char
  * @n: limit of concatenation
  * Return: new char
  */
 
-char *_strcat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int dlen = 0, i = 0;
 
